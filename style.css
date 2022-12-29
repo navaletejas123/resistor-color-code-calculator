@@ -1,0 +1,37 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn-border{
+    border: 1px solid black !important;
+}
+.Black{
+    background-color: black;
+}
+.Brown{
+    background-color: brown;
+}
+.Red{
+    background-color: red;
+}
+.Orange{
+    background-color: orange;
+}
+.Yellow{
+    background-color: yellow;
+}
+.Green{
+    background-color: green;
+}
+.Blue{
+    background-color: blue;
+}
+.Violet{
+    background-color: violet;
+}
+.Gray{
+    background-color: gray;
+}
+.White{
+    background-color: white;
+}
