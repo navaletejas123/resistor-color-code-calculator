@@ -1,37 +1,108 @@
-a{
+a {
     text-decoration: none;
     color: black;
 }
-.btn-border{
+
+.btn-border {
     border: 1px solid black !important;
 }
-.Black{
-    background-color: black;
+
+.Black {
+    background-color: black !important;
 }
-.Brown{
-    background-color: brown;
+
+.Brown {
+    background-color: brown !important;
 }
-.Red{
-    background-color: red;
+
+.Red {
+    background-color: red !important;
 }
-.Orange{
-    background-color: orange;
+
+.Orange {
+    background-color: orange !important;
 }
-.Yellow{
-    background-color: yellow;
+
+.Yellow {
+    background-color: yellow !important;
 }
-.Green{
-    background-color: green;
+
+.Green {
+    background-color: green !important;
 }
-.Blue{
-    background-color: blue;
+
+.Blue {
+    background-color: blue !important;
 }
-.Violet{
-    background-color: violet;
+
+.Violet {
+    background-color: violet !important;
 }
-.Gray{
-    background-color: gray;
+
+.Gray {
+    background-color: gray !important;
 }
-.White{
-    background-color: white;
+
+.White {
+    background-color: white !important;
 }
+
+.Gold{
+    background-color: goldenrod !important;
+}
+
+.silver{
+    background-color: silver;
+}
+
+
+.resistor-color-code-diagram {
+    width: 230px;
+    height: 100px;
+}
+
+.first_strip_band {
+    position: relative;
+    top: -48px;
+    left: 19px;
+    width: 10px;
+    height: 47px;
+    background: #C5C5C5;
+}
+
+.second_strip_band {
+    position: relative;
+    top: -89px;
+    left: 50px;
+    width: 10px;
+    height: 34px;
+    background: #C5C5C5;
+}
+
+.third_strip_band {
+    position: relative;
+    top: -122px;
+    left: 90px;
+    width: 10px;
+    height: 34px;
+    background: #C5C5C5;
+}
+
+.fourth_strip_band {
+    position: relative;
+    top: -163px;
+    left: 177px;
+    width: 10px;
+    height: 47px;
+    background: #C5C5C5;
+}
+
+.fifth_strip_band {
+    position: relative;
+    top: -203px;
+    left: 129px;
+    width: 10px;
+    height: 34px;
+    background: #C5C5C5;
+}
+

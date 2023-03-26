@@ -13,76 +13,99 @@
 </head>
 
 <body>
-    <div class="container mt-5">
-        <!-- As a link -->
-        <nav class="navbar bg-dark ">
-            <div class="container-fluid">
-                <a href="fiveBand.html" class="fs-4 text-white">Calculate 5 band here</a>
+    <!-- <div class="container mt-5"> -->
+    <!-- As a link -->
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col">
+                <a href="#" class="btn btn-info">4 Band</a>
             </div>
-        </nav>
+            <div class="col text-end">
+                <a href="fiveBand.html" class="btn btn-dark">5 Band</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
         <div class="row mt-5">
             <div class="col">
                 <h1 class="text-center">Four Band Resistor Calculator</h1>
             </div>
         </div>
     </div>
-    <div class="container mt-5">
+
+    <!-- resistor box -->
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-12 resistor-color-code-diagram m-auto">
+                <img src="resistor-color-diagram-bg.webp" class="w-100" alt="">
+                <div class="first_strip_band"></div>
+                <div class="second_strip_band"></div>
+                <div class="third_strip_band"></div>
+                <div class="fourth_strip_band"></div>
+                <!-- <div class="fifth_strip_band"></div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- </div> -->
+    <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-12 col-xl-3 col-lg-3 col-md-6 mt-3">
                 <select class="form-select first-band" aria-label="Default select example">
                     <option selected> Select 1st Band</option>
-                    <option class="" value="0">Black</option>
-                    <option class="" value="1">Brown</option>
-                    <option class="" value="2">Red</option>
-                    <option class="" value="3">Orange</option>
-                    <option class="" value="4">Yellow</option>
-                    <option class="" value="5">Green</option>
-                    <option class="" value="6">Blue</option>
-                    <option class="" value="7">Violet</option>
-                    <option class="" value="8">Gray</option>
-                    <option class="" value="9">White</option>
+                    <option class="first_Black" value="0">Black</option>
+                    <option class="first_Brown" value="1">Brown</option>
+                    <option class="first_Red" value="2">Red</option>
+                    <option class="first_Orange" value="3">Orange</option>
+                    <option class="first_Yellow" value="4">Yellow</option>
+                    <option class="first_Green" value="5">Green</option>
+                    <option class="first_Blue" value="6">Blue</option>
+                    <option class="first_Violet" value="7">Violet</option>
+                    <option class="first_Gray" value="8">Gray</option>
+                    <option class="first_White" value="9">White</option>
                 </select>
             </div>
             <div class="col-12 col-xl-3 col-lg-3 col-md-6 mt-3">
                 <select class="form-select second-band" aria-label="Default select example">
-                    <option selected> Select 1st Band</option>
-                    <option class="" value="0">Black</option>
-                    <option class="" value="1">Brown</option>
-                    <option class="" value="2">Red</option>
-                    <option class="" value="3">Orange</option>
-                    <option class="" value="4">Yellow</option>
-                    <option class="" value="5">Green</option>
-                    <option class="" value="6">Blue</option>
-                    <option class="" value="7">Violet</option>
-                    <option class="" value="8">Gray</option>
-                    <option class="" value="9">White</option>
+                    <option selected> Select 2nd Band</option>
+                    <option class="second_Black" value="0">Black</option>
+                    <option class="second_Brown" value="1">Brown</option>
+                    <option class="second_Red" value="2">Red</option>
+                    <option class="second_Orange" value="3">Orange</option>
+                    <option class="second_Yellow" value="4">Yellow</option>
+                    <option class="second_Green" value="5">Green</option>
+                    <option class="second_Blue" value="6">Blue</option>
+                    <option class="second_Violet" value="7">Violet</option>
+                    <option class="second_Gray" value="8">Gray</option>
+                    <option class="second_White" value="9">White</option>
                 </select>
             </div>
             <div class="col-12 col-xl-3 col-lg-3 col-md-6 mt-3">
                 <select class="form-select third-band" aria-label="Default select example">
                     <option selected>Multiplier</option>
-                    <option class="" value="1">Black</option>
-                    <option class="" value="10">Brown</option>
-                    <option class="" value="100">Red</option>
-                    <option class="" value="1000">Orange</option>
-                    <option class="" value="10000">Yellow</option>
-                    <option class="" value="100000">Green</option>
-                    <option class="" value="1000000">Blue</option>
-                    <option class="" value="10000000">Violet</option>
-                    <option class="" value="1000000000">Gray</option>
-                    <option class="" value="10000000000">White</option>
+                    <option class="third_Black" value="1">Black</option>
+                    <option class="third_Brown" value="10">Brown</option>
+                    <option class="third_Red" value="100">Red</option>
+                    <option class="third_Orange" value="1000">Orange</option>
+                    <option class="third_Yellow" value="10000">Yellow</option>
+                    <option class="third_Green" value="100000">Green</option>
+                    <option class="third_Blue" value="1000000">Blue</option>
+                    <option class="third_Violet" value="10000000">Violet</option>
+                    <option class="third_Gray" value="1000000000">Gray</option>
+                    <option class="third_White" value="10000000000">White</option>
                 </select>
             </div>
             <div class="col-12 col-xl-3 col-lg-3 col-md-6 mt-3">
                 <select class="form-select tolerance-band" aria-label="Default select example">
                     <option selected>Tolerance</option>
-                    <option class="" value="1">Brown</option>
-                    <option class="" value="2">Red</option>
-                    <option class="" value="0.5">Green</option>
-                    <option class="" value="0.25">Blue</option>
-                    <option class="" value="0.1">Violet</option>
-                    <option class="" value="5">Gold</option>
-                    <option class="" value="10">Silver</option>
+                    <option class="fourth_Brown" value="1">Brown</option>
+                    <option class="fourth_Red" value="2">Red</option>
+                    <option class="fourth_Green" value="0.5">Green</option>
+                    <option class="fourth_Blue" value="0.25">Blue</option>
+                    <option class="fourth_Violet" value="0.1">Violet</option>
+                    <option class="fourth_Gold" value="5">Gold</option>
+                    <option class="fourth_Silver" value="10">Silver</option>
                 </select>
             </div>
             <div class="col-12 d-flex justify-content-center mt-5">
