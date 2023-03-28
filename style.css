@@ -67,7 +67,7 @@ a {
     left: 19px;
     width: 10px;
     height: 47px;
-    background: #C5C5C5;
+    background-color: #C5C5C5;
 }
 
 .second_strip_band {
@@ -76,7 +76,7 @@ a {
     left: 50px;
     width: 10px;
     height: 34px;
-    background: #C5C5C5;
+    background-color: #C5C5C5;
 }
 
 .third_strip_band {
@@ -85,7 +85,7 @@ a {
     left: 90px;
     width: 10px;
     height: 34px;
-    background: #C5C5C5;
+    background-color: #C5C5C5;
 }
 
 .fourth_strip_band {
@@ -94,7 +94,7 @@ a {
     left: 177px;
     width: 10px;
     height: 47px;
-    background: #C5C5C5;
+    background-color: #C5C5C5;
 }
 
 .fifth_strip_band {
@@ -103,6 +103,6 @@ a {
     left: 129px;
     width: 10px;
     height: 34px;
-    background: #C5C5C5;
+    background-color: #C5C5C5;
 }
 
