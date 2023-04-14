@@ -38,8 +38,8 @@ document.querySelector(".first_Black").addEventListener("click", () => {
     document.querySelector(".first_strip_band").classList.remove("Violet")
     document.querySelector(".first_strip_band").classList.remove("Gray")
     document.querySelector(".first_strip_band").classList.remove("White")
-
 })
+
 document.querySelector(".first_Brown").addEventListener("click", () => {
     document.querySelector(".first_strip_band").classList.add("Brown")
     document.querySelector(".first_strip_band").classList.remove("Black")
